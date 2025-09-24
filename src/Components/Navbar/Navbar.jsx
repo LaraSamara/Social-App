@@ -1,6 +1,6 @@
 import { NavLink, useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
-import { tokenContext } from '../../Context/tokenContext.jsx';
+import { tokenContext } from '../../Context/TokenContext.jsx';
 
 const Navbar = () => {
     const { token, setToken } = useContext(tokenContext);
